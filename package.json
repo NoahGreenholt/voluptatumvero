@@ -1,0 +1,46 @@
+{
+  "name": "voluptatumvero",
+  "description": "Reduces an object to a value that is the accumulated result of running each property in the object through a callback.",
+  "version": "1.0.0",
+  "homepage": "https://github.com/NoahGreenholt/voluptatumvero.git",
+  "author": "KeithKozey",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NoahGreenholt/voluptatumvero.git"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "object",
+    "reduce"
+  ],
+  "dependencies": {
+    "for-own": "^1.0.0",
+    "make-iterator": "^1.0.0"
+  },
+  "devDependencies": {
+    "gulp-format-md": "^0.1.11"
+  },
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "lint": {
+      "reflinks": true
+    }
+  }
+}
